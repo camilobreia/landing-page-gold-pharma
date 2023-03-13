@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
+
 * {
     margin: 0px;
     padding: 0px;
@@ -12,13 +13,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
     min-height: 100vh;
+    
 }
 
 nav {
     background-image: linear-gradient(to right, #7d4d02, #EFAE2F);
     color: white;
     min-height: 20px;
-    width: 98vw;
+    
     text-align: center;
     font-size: 8px;
     font-weight: 100;    
@@ -27,6 +29,7 @@ nav {
 
 header {
     background-image: linear-gradient(to bottom, white, white, white, white, white, #D8AC6F);
+    
     text-align: center;
     min-height: auto;
     padding: 40px;
@@ -43,12 +46,12 @@ section {
     margin: auto;
     padding: 20px;
     background-color: white;
-    min-width: 400px;
-    max-width: 800px;    
+    max-width: 600px;
+    min-width: 370px;   
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.336);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    
+    text-align: center;
     
 }
 
@@ -71,7 +74,8 @@ section img{
 }
 
 div {
-    padding-bottom: 20px;    
+    padding-bottom: 40px;   
+    text-align: center;
 }
 
 #divmae { 
@@ -80,11 +84,17 @@ div {
     
 }
 
+.divprod {
+    width: 200px;
+    height: 200px;
+}
+
 footer {
     background-color: #b48423;
     color: white;
     text-align: center;
     font-size: 1em;
     padding: 10px;
+    
 }
 
