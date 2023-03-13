@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -11,13 +13,22 @@ body {
 }
 
 nav {
-    background-color: #7d4d02;
+    background-image: linear-gradient(to right, #7d4d02, #EFAE2F);
     color: white;
+    min-height: 20px;
+    width: 100vw;
     text-align: center;
+    font-size: 10px;
+    font-weight: 100;
+    
 }
 
 header {
-
+    background-image: linear-gradient(to bottom, white, white, white, #D8AC6F);
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 4px;
+    text-align: center;
+    height: 400px;
 }
 
 section {
