@@ -8,30 +8,83 @@
 }
 
 body {
+    background-image: linear-gradient(to bottom, white, white, #EFAE2F);
     font-family: Arial, Helvetica, sans-serif;
-    
+    background-color: white;
+    min-height: 100vh;
 }
 
 nav {
     background-image: linear-gradient(to right, #7d4d02, #EFAE2F);
     color: white;
     min-height: 20px;
-    width: 100vw;
+    width: 98vw;
     text-align: center;
-    font-size: 10px;
-    font-weight: 100;
-    
+    font-size: 8px;
+    font-weight: 100;    
+    padding: 3px;
 }
 
 header {
-    background-image: linear-gradient(to bottom, white, white, white, #D8AC6F);
-    font-family: 'Shadows Into Light', cursive;
-    letter-spacing: 4px;
+    background-image: linear-gradient(to bottom, white, white, white, white, white, #D8AC6F);
     text-align: center;
-    height: 400px;
+    min-height: auto;
+    padding: 40px;
+}
+
+header img {
+    width: 70vw;
+    max-width: 800px;
+    margin: auto;
+    display: block;
 }
 
 section {
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    min-width: 400px;
+    max-width: 800px;    
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.336);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    
+}
 
+section > h1 {
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 4px;    
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+section img{
+    
+   width: 40%;
+}
+
+#pfinal {
+    text-align: center;
+    font-weight: bold;
+}
+
+div {
+    padding-bottom: 20px;    
+}
+
+#divmae { 
+    text-align: center;
+    columns: 2;  
+    
+}
+
+footer {
+    background-color: #b48423;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    padding: 10px;
 }
 
